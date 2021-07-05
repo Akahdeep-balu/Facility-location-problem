@@ -1,0 +1,12 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: dakas
+ * Creation Date: Dec 23, 2020 at 12:18:57 AM
+ *********************************************/
+SheetConnection sheet("dataset.csv");
+ demand_points=14;
+ facilities=8;
+ F from SheetRead(sheet,"'Sheet1'!Q2:Q9") ;
+ D from SheetRead(sheet,"'Sheet1'!B11:O11") ;
+ C from SheetRead(sheet,"'Sheet1'!B2:O9") ;
+ M from SheetRead(sheet,"'Sheet1'!R2:R9") ;
